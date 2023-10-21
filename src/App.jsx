@@ -3,6 +3,7 @@
 //import viteLogo from '/vite.svg'
 import './App.css'
 import elemento1 from './components/componente-uno/ElementOne';
+import leon from '../src/assets/leon.jpg'
 
 //const elemento1 = <h1>Hello world! one</h1>;
 const name = "james rodriguez";
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <div>
-      <elemento1 />
+      {elemento1}
       {elemento2}
       {element}
       <p style={{
@@ -52,6 +53,7 @@ function App() {
         el nombre completo es: {formatName(objExample)}</p>
       {fullName}
       {renderAge(objExample)}
+      <img src={leon} alt="react logo"/>
     </div>
   )
 }
