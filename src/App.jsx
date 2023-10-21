@@ -2,7 +2,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
-import elemento1 from './components/componente-uno/ElementOne';
+import ElementUno from './components/componente-uno/ElementOne';
 import leon from '../src/assets/leon.jpg'
 
 //const elemento1 = <h1>Hello world! one</h1>;
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div>
-      {elemento1}
+      <ElementUno/>
       {elemento2}
       {element}
       <p style={{
